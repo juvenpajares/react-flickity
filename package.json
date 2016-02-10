@@ -1,0 +1,30 @@
+{
+  "name": "react-flickity",
+  "version": "1.0.0",
+  "description": "Flickity component for React",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/juvenpajares/react-flickity.git"
+  },
+  "keywords": [
+    "react",
+    "flickity",
+    "component",
+    "slider",
+    "carousel"
+  ],
+  "author": "Juven A. Pajares",
+  "license": "ISC",
+  "devDependencies": {
+    "flickity": "latest",
+    "imagesloaded": "latest"
+  },
+  "bugs": {
+    "url": "https://github.com/juvenpajares/react-flickity/issues"
+  },
+  "homepage": "https://github.com/juvenpajares/react-flickity#readme"
+}

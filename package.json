@@ -1,6 +1,6 @@
 {
   "name": "react-flickity",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Flickity component for React",
   "main": "./lib/index.js",
   "scripts": {

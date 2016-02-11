@@ -1,6 +1,6 @@
 {
   "name": "react-flickity",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Flickity component for React",
   "main": "./lib/index.js",
   "scripts": {
@@ -26,5 +26,9 @@
   "bugs": {
     "url": "https://github.com/juvenpajares/react-flickity/issues"
   },
-  "homepage": "https://github.com/juvenpajares/react-flickity#readme"
+  "homepage": "https://github.com/juvenpajares/react-flickity#readme",
+  "dependencies": {
+    "flickity": "^1.1.2",
+    "imagesloaded": "^4.1.0"
+  }
 }

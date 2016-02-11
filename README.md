@@ -17,8 +17,12 @@ module: {
       }
     ]
   }
-
 ```
+
+### Download and import flickity to your css
+
++ CSS:
+  - [flickity.css](https://raw.githubusercontent.com/juvenpajares/react-flickity/master/lib/flickity.css)
 
 ### Example
 ```js

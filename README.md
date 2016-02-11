@@ -7,6 +7,19 @@ Flickity component for React
   npm install react-flickity --save
 ```
 
+### Add loaders to webpack config and production files
+```js
+module: {
+    loaders: [
+      {
+        test: /flickity/,
+        loader: 'imports?define=>false&this=>window'
+      }
+    ]
+  }
+
+```
+
 ### Example
 ```js
 var React = require('react')
@@ -17,7 +30,8 @@ var flickityOptions = {
     cellSelector: '.sliderBoxes',
     accessibility: true,
     pageDots: true,
-    wrapAround: true
+    wrapAround: true,
+    autoPlay: 3000 // default false
 }
 
 var Carousel = React.createClass({

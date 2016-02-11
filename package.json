@@ -1,6 +1,6 @@
 {
   "name": "react-flickity",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Flickity component for React",
   "main": "./lib/index.js",
   "scripts": {
@@ -19,16 +19,12 @@
   ],
   "author": "Juven A. Pajares",
   "license": "ISC",
-  "devDependencies": {
-    "flickity": "latest",
-    "imagesloaded": "latest"
-  },
   "bugs": {
     "url": "https://github.com/juvenpajares/react-flickity/issues"
   },
   "homepage": "https://github.com/juvenpajares/react-flickity#readme",
   "dependencies": {
-    "flickity": "^1.1.2",
-    "imagesloaded": "^4.1.0"
-  }
+    "flickity": "^1.1.2"
+  },
+  "devDependencies": {}
 }
